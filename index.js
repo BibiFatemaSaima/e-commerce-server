@@ -98,7 +98,6 @@ async function run() {
       }
     });
     // edit api
-
     app.put("/products/:id", async (req, res) => {
       try {
         const id = req.params.id;
@@ -141,7 +140,6 @@ async function run() {
         });
       }
     });
-
     // dashboard api
     app.get("/users", async (req, res) => {
       try {
@@ -319,7 +317,6 @@ async function run() {
         });
       }
     });
-
     // Add a review
     app.post("/reviews", async (req, res) => {
       try {
